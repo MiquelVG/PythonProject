@@ -59,7 +59,7 @@ if option < 1 and option > 3:
                                     print("The second escape pod starts, and you manage to escape.")
                                     print("-------------")
                                     print("--GAME OVER--")
-                                    print("--YOU  WIN--")
+                                    print("---YOU WIN---")
                                     print("-------------")
                                 elif option == 3:
                                     os.system("cls")
@@ -69,6 +69,132 @@ if option < 1 and option > 3:
                                     print("--GAME OVER--")
                                     print("--YOU  LOSE--")
                                     print("-------------")
-
-
-                                     
+                        elif option == 2:
+                            os.system("cls")
+                            print("A guard opens the door to see if there's anyone.")
+                            print("What do you do?")
+                            print("1-Run towards the escape pod room.")
+                            print("2-Continue hiding.")
+                            print("3-Grab a guard as a hostage.")
+                            option = int(input())
+                            if option < 1 and option > 3:
+                                while option < 1 and option > 3:
+                                    print("Not valid option. Try again: ")
+                                    option = int(input())
+                                if option == 1:
+                                    os.system("cls")
+                                    print("You run as fast as you can, but the guards are faster and capture you.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("--YOU  LOSE--")
+                                    print("-------------")
+                                elif option == 2:
+                                    os.system("cls")
+                                    print("You continue hiding, but the guards begin to search the area and eventually find and capture you.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("--YOU  LOSE--")
+                                    print("-------------")
+                                elif option == 3:
+                                    os.system("cls")
+                                    print("You wait for the perfect moment to leave your hiding spot and catch a guard off guard.")
+                                    print("You use him as a hostage and escape in one of the capsules.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("---YOU WIN---")
+                                    print("-------------")
+                        elif option == 3:
+                            os.system("cls")
+                            print("You try to run away, but along the way you encounter some guards who capture you.")
+                            print("-------------")
+                            print("--GAME OVER--")
+                            print("--YOU  LOSE--")
+                            print("-------------")
+                if option == 2:
+                    os.system("cls")
+                    print("You've been waiting for a long time, but no one opens the door, although that makes sense, they're escape pods, only used in emergencies.")
+                    print("What do you do?")
+                    print("1-Continue waiting.")
+                    print("2-Go in another direction.")
+                    print("3-Trigger an accident.")
+                    option = int(input())
+                    if option < 1 and option > 3:
+                        while option < 1 and option > 3:
+                            print("Not valid option. Try again: ")
+                            option = int(input())
+                        if option == 1:
+                            os.system("cls")
+                            print("You keep waiting until suddenly an alarm sounds and you hear a voice saying, 'He has escaped.'")
+                            print("What do you do?")
+                            print("1-Try to hack the door from the control panel next to it.")
+                            print("2-Hide in a hiding spot and continue waiting.")
+                            print("3-Blend in with the crowd.")
+                            option = int(input())
+                            if option < 1 and option > 3:
+                                while option < 1 and option > 3:
+                                    print("Not valid option. Try again: ")
+                                    option = int(input())
+                                if option == 1:
+                                    os.system("cls")
+                                    print("You fail to hack the panel, and the guards capture you.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("--YOU  LOSE--")
+                                    print("-------------")
+                                elif option == 2:
+                                    os.system("cls")
+                                    print("You continue hiding until they stop searching, and finally, a maintenance worker opens")
+                                    print("the door for inspection, allowing you to escape in an escape pod.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("---YOU WIN---")
+                                    print("-------------")
+                                elif option == 3:
+                                    os.system("cls")
+                                    print("You blend into the crowd, but since you're wearing prisoner clothes,")
+                                    print("the guards quickly identify you and end up capturing you.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("--YOU  LOSE--")
+                                    print("-------------")
+                        elif option == 2:
+                            os.system("cls")
+                            print("You go in another direction, but along the way, you encounter some guards who capture you.")
+                            print("-------------")
+                            print("--GAME OVER--")
+                            print("--YOU  LOSE--")
+                            print("-------------")
+                        elif option == 3:
+                            os.system("cls")
+                            print("What accident do you think you should provoke?")
+                            print("1-Start a fire")
+                            print("2-Make a hole in the spaceship wall.")
+                            print("3-Trip a waiter.")
+                            option = int(input())
+                            if option < 1 and option > 3:
+                                while option < 1 and option > 3:
+                                    print("Not valid option. Try again: ")
+                                    option = int(input())
+                                if option == 1:
+                                    os.system("cls")
+                                    print("You provoke a large fire, and even though the ceiling extinguishers quickly put out the fire,")
+                                    print("people get scared and head towards the escape pods, opening the door and allowing you to escape in one of them.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("---YOU WIN---")
+                                    print("-------------")
+                                elif option == 2:
+                                    os.system("cls")
+                                    print("You head to the engine room and blow up the engine.")
+                                    print("That causes a huge hole that sucks you out into outer space.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("--YOU  LOSE--")
+                                    print("-------------")
+                                elif option == 3:
+                                    os.system("cls")
+                                    print("Why did you do that, you didn't accomplish anything, you just drew attention and the guards captured you.")
+                                    print("-------------")
+                                    print("--GAME OVER--")
+                                    print("--YOU  LOSE--")
+                                    print("-------------")
