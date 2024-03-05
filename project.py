@@ -285,7 +285,6 @@ if option < 1 and option > 3:
                                     print("--GAME OVER--")
                                     print("---YOU WIN---")
                                     print("-------------")
-
     if option == 3:
         print("You arrive to the maintenance room. These are your options:")
         print("1-Go to the Observatory on the next room.")
