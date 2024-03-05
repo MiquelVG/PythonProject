@@ -6,10 +6,13 @@ print("1-Go left")
 print("2-Go right")
 print("3-Go straight")
 option = int(input())
+#First we ask the question and let the user enter an answer.
 while option < 1 and option > 3:
     print("Not valid option. Try again: ")
     option = int(input())
-    
+# If the answer is not a valid response it will keep asking the user to enter a response.
+
+#For every possible answer it has it's own path.
 if option == 3:
     print("You arrive to the maintenance room. These are your options:")
     print("1-Check the old Spaceship map on the wall.")
@@ -27,7 +30,7 @@ if option == 3:
         print("1-Got to the escape pod room.")
         print("2-Not risk it and try to go to the parking station.")
         option = int(input())
-        while option < 1 and option > 3:
+        while option < 1 and option > 2:
             print("Not valid option. Try again: ")
             option = int(input())
         if option == 1:
@@ -71,12 +74,12 @@ if option == 3:
                 os.system("cls")
                 print("The keys weren't for the principal door and you set off the alarm. The guards caught you.")
                 print("---The End---")
-            elif option == 2:
+            if option == 2:
                 os.system("cls")
                 print("You manage to open the back door of the Spaceship.")
                 print("Once you start it you finally get out.")
                 print("---The End---")
-            elif option == 3:
+            else:
                 os.system("cls")
                 print("You try to force open a Spaceship and it sets off the alarm.")
                 print("You get caught.")
@@ -112,7 +115,7 @@ if option == 3:
         print("1-Free it.")
         print("2-Don't free it")
         option = int(input())
-        while option < 1 and option > 3:
+        while option < 1 and option > 2:
             print("Not valid option. Try again: ")
             option = int(input())
         if option == 1:
