@@ -81,3 +81,28 @@ if option == 3:
                 print("You try to force open a Spaceship and it sets off the alarm.")
                 print("You get caught.")
                 print("---The End---")
+    if option == 2:
+        os.system("cls")
+        print("Maybe the pipe will be usefull.")
+        print("Suddenly you hear footsepts. What will you do?")
+        print("1-Hide.")
+        print("2-Wait to atack.")
+        print("3-Go towards the footseps")
+        option = int(input())
+        while option < 1 and option > 3:
+            print("Not valid option. Try again: ")
+            option = int(input())
+        if option == 1:
+            os.system("cls")
+            print("You don't hide fast enough and a guard spots and catches you.")
+            print("---The End---")
+        if option == 2:
+            os.system("cls")
+            print("You try to attack the guard that was coming but he fires his weapon and kills you.")
+            print("---The End---")
+        else:
+            os.system("cls")
+            print("You go twoards the footseps without knowing that it's a guard. He catches you.")
+            print("---The End---")
+        
+    
