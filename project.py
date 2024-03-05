@@ -10,6 +10,9 @@ if option < 1 and option > 3:
     while option < 1 and option > 3:
         print("Not valid option. Try again: ")
         option = int(input())
+    if option == 1:
+                print("You arrive at the door leading to the room where the escape pods are located, but the electronic door is closed.")
+                
     if option == 3:
         print("You arrive to the maintenance room. These are your options:")
         print("1-Go to the Observatory on the next room.")
