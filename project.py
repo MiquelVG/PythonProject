@@ -104,5 +104,23 @@ if option == 3:
             os.system("cls")
             print("You go twoards the footseps without knowing that it's a guard. He catches you.")
             print("---The End---")
-        
-    
+
+    if option == 3:
+        os.system("cls")
+        print("After exploring a bit you get to a dark room were a beast is kept in a big cell.")
+        print("It asks you to free him and it will help you.")
+        print("1-Free it.")
+        print("2-Don't free it")
+        option = int(input())
+        while option < 1 and option > 3:
+            print("Not valid option. Try again: ")
+            option = int(input())
+        if option == 1:
+            os.system("cls")
+            print("You free the beast and it kills everyone on the ship except you.")
+            print("You manage to escape.")
+            print("---The End---")
+        else:
+            os.system("cls")
+            print("You refuse to free the beast but it's too late. A few guards heard you and caught you.")
+            print("---The End---")
